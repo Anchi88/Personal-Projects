@@ -30,8 +30,8 @@ if "specType" not in st.session_state:
 if "viewFullProfile" not in st.session_state:
     st.session_state["viewFullProfile"] = []
 
-st.title("Rick & Morty🛸")
-st.subheader("_Character Search_")
+st.title("Rick & Morty🛸 Character Search")
+st.caption("Character Search using _https://rickandmortyapi.com_ ")
 
 image = Image.open("rickandmorty.jpg")
 st.image(image)
