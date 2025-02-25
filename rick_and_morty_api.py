@@ -99,7 +99,7 @@ with tab1:
             with colButt:
                 if st.form_submit_button("Full profil"):
                     st.session_state["viewFullProfile"].append(character)
-                    st.experimental_rerun()
+                    st.rerun()
 
 
 with tab2:
@@ -134,7 +134,7 @@ with tab2:
             with colButt:
                 if st.form_submit_button("Remove"):
                     st.session_state["viewFullProfile"].remove(character)
-                    st.experimental_rerun()
+                    st.rerun()
 
 
 
