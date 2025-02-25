@@ -1,4 +1,4 @@
-# Education Projects
+# Personal Projects
 Projects developed during my **Python** class.</br>
 [Tic Tac Toe game](#tic-tac-toe-game)</br>
 [Rick and Morty character search](#rick-and-morty-character-search-project)
